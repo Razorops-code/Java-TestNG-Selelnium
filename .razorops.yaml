@@ -1,0 +1,7 @@
+tasks:
+  build-deps:
+    runner: razorci/openjdk-11-buster
+    steps:
+    - checkout
+    - commands:
+      - mvn clean test
