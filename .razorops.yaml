@@ -4,6 +4,7 @@ tasks:
     steps:
     - checkout
     - commands:
+    - |
       - mvn clean test -Dsuite=single.xml
       - reports/html:
         dir: coverage
