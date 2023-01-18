@@ -4,4 +4,4 @@ tasks:
     steps:
     - checkout
     - commands:
-      - mvn clean test
+      - mvn clean test -Dsuite=single.xml
