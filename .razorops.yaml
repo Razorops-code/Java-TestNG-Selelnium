@@ -5,7 +5,7 @@ tasks:
     - checkout
     - commands:
       - |
-        mvn clean install test -Dsuite=single.xml
+        mvn clean test -Dsuite=single.xml
         reports/html:
          dir: coverage
          index: index.html
